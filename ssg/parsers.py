@@ -10,7 +10,7 @@ class Parser:
         else:
             return False
 
-    def parse(self, path: Path, source: Path, dest: Path)
+    def parse(self, path: Path, source: Path, dest: Path):
         raise NotImplementedError
 
     def read(self, path):
